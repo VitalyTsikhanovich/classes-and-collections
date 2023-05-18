@@ -19,7 +19,7 @@
     for (const property of properties) {
         currentObject = currentObject[property]
         if (typeof currentObject !== 'object' || currentObject === null) {
-            return null;
+            return null
         }
     }
 
